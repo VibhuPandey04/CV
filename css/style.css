@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 400%;
+    margin-top:0;
+}
+
+h2{
+    font-size:300%;
+    font-family: 'Sacramento', cursive;
+}
+
+h3{
+    font-size: 250%;
+
+    font-family: 'Sacramento', cursive;
+}
+
+p{
+    font-size: 200%;
+
+}
+
+hr {
+    background-color: lightgrey;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    width: 20%;
+    height: 0px;
+}
+
+/*
+div {
+    background-color: #E4F9F5;
+}*/
+/*********************class.css**********************/
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    background-color: lightgrey;
+
+}
+
+#dslogo{
+    height:40%;
+    width:40%;
+}
+
+.bottom-container{
+    background-color: #8ac4d0;
+
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 200px;
+    bottom: 300px;
+}
